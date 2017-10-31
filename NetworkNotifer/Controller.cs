@@ -29,7 +29,7 @@ namespace NetworkNotifer
             Checker = new PeriodicCheck(this, 1);
             ips = new ConcurrentDictionary<string, IPState>();
             GUI = g;
-            new Task(IntialScan).Start();
+            //new Task(IntialScan).Start();
             StartListening();
             StartChecking();
             //NetworkChange.NetworkAddressChanged += NetworkChange_NetworkAddressChanged;

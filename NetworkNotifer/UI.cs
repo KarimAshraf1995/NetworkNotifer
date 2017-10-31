@@ -26,9 +26,9 @@ namespace NetworkNotifer
                 BalloonTipTitle = Values.AppName,
                 Text = Values.AppName
             };
-
+            
             Text = Values.AppName;
-
+            
             dt = new DataTable();
             //dt.Columns.Add(Values.Column_xid);
             dt.Columns.Add(Values.Column_hostname);
@@ -50,7 +50,7 @@ namespace NetworkNotifer
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         public void NotifyConnecting(object m)
